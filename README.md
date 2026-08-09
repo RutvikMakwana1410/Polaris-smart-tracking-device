@@ -8,10 +8,10 @@ The project is currently under development. The initial schematic and PCB design
 
 The main objective of POLARIS is to develop a standalone device capable of providing:
 
-- Direction
-- Latitude and longitude
-- GPS satellite-based time
-- Date and time through the RTC when GPS is unavailable
+* Direction
+* Latitude and longitude
+* GPS satellite-based time
+* Date and time through the RTC when GPS is unavailable
 
 The information will be displayed through a 0.96-inch OLED display. Tactile switches will be used to navigate between different information screens.
 
@@ -51,16 +51,16 @@ Two tactile switches are included for navigating between different information s
 
 ## Hardware Components
 
-| Component | Function |
-|---|---|
-| ESP32 | Main controller and data processing |
-| NEO-6M GPS Module | Latitude, longitude and GPS timing information |
-| GY-271 Magnetometer | Direction detection |
-| DS3231 RTC Module | Backup and local timekeeping |
-| 0.96-inch OLED Display | Display interface |
-| 18650 Battery Holder | Portable power supply |
-| Tactile Switches | Screen navigation and control |
-| Charging Module | Planned for integration |
+| Component              | Function                                       |
+| ---------------------- | ---------------------------------------------- |
+| ESP32                  | Main controller and data processing            |
+| NEO-6M GPS Module      | Latitude, longitude and GPS timing information |
+| GY-271 Magnetometer    | Direction detection                            |
+| DS3231 RTC Module      | Backup and local timekeeping                   |
+| 0.96-inch OLED Display | Display interface                              |
+| 18650 Battery Holder   | Portable power supply                          |
+| Tactile Switches       | Screen navigation and control                  |
+| Charging Module        | Planned for integration                        |
 
 ## System Operation
 
@@ -88,11 +88,11 @@ The repository currently contains the project schematic and PCB design files. Th
 
 Current hardware progress:
 
-- Initial schematic completed
-- Initial PCB design completed
-- PCB refinement in progress
-- PCB manufacturing pending
-- Hardware assembly pending
+* Initial schematic completed
+* Initial PCB design completed
+* PCB refinement in progress
+* PCB manufacturing pending
+* Hardware assembly pending
 
 ## Firmware Development
 
@@ -100,38 +100,40 @@ Firmware development is the next major stage of the project.
 
 The ESP32 firmware will be responsible for:
 
-- Reading GPS data
-- Processing latitude and longitude
-- Handling GPS timing information
-- Reading RTC data
-- Processing magnetometer readings
-- Determining direction
-- Controlling the OLED display
-- Managing screen navigation
-- Handling tactile switch input
+* Reading GPS data
+* Processing latitude and longitude
+* Handling GPS timing information
+* Reading RTC data
+* Processing magnetometer readings
+* Determining direction
+* Controlling the OLED display
+* Managing screen navigation
+* Handling tactile switch input
 
 ## Project Status
 
-| Development Stage | Status |
-|---|---|
-| Project Concept | Completed |
-| Component Selection | Completed |
-| Schematic | Initial version completed |
-| PCB Design | In Progress |
-| PCB Refinement | Pending |
-| Firmware Development | Pending |
-| Sensor Integration | Pending |
-| PCB Manufacturing | Pending |
-| Hardware Assembly | Pending |
-| Testing and Calibration | Pending |
+| Development Stage       | Status                    |
+| ----------------------- | ------------------------- |
+| Project Concept         | Completed                 |
+| Component Selection     | Completed                 |
+| Schematic               | Initial version completed |
+| PCB Design              | In Progress               |
+| PCB Refinement          | Pending                   |
+| Firmware Development    | Pending                   |
+| Sensor Integration      | Pending                   |
+| PCB Manufacturing       | Pending                   |
+| Hardware Assembly       | Pending                   |
+| Testing and Calibration | Pending                   |
 
 ## Project Documentation
 
 The repository includes the POLARIS project presentation containing the project overview, hardware components, schematic, PCB layout, 3D PCB visualization, and system description.
 
-Project Presentation:
+### Project Presentation
 
-POLARIS_Project_Presentation.pptx
+**POLARIS_Project_Presentation.pptx**
+
+> **Note:** The PowerPoint presentation may not be previewed directly in GitHub. To access the presentation, click the **three-dot menu (⋯)** next to the file and select **Download**. The downloaded `.pptx` file can then be opened using Microsoft PowerPoint or any compatible presentation software.
 
 ## Future Development
 
